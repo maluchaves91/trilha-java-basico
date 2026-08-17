@@ -39,6 +39,16 @@
   fonttitle=\bfseries, title=Observação,
   arc=2mm, boxrule=0.8pt
 }
+\newtcolorbox{exercicio}{
+  colback=violet!4, colframe=violet!55!black,
+  fonttitle=\bfseries, title=Exercício,
+  arc=2mm, boxrule=0.8pt
+}
+\newtcolorbox{resolucao}{
+  colback=teal!4, colframe=teal!50!black,
+  fonttitle=\bfseries, title=Resolução,
+  arc=2mm, boxrule=0.8pt
+}
 
 % --- Código Java ------------------------------------------------------
 \usepackage{listings}
@@ -517,5 +527,197 @@ exemplo:
   \item usar a depuração (\emph{breakpoint}) para acompanhar o valor das variáveis
         a cada iteração.
 \end{itemize}
+
+% ============================================================
+\section{Exercícios de fixação}
+
+Questões no estilo de prova para consolidar os conceitos de estruturas de
+repetição, todas com resolução comentada.
+
+% ------------------------------------------------------------
+\subsection{Exercício 1 --- \texttt{while} com condição inicial falsa}
+
+\begin{exercicio}
+O que será impresso no console pelo código abaixo?
+
+\begin{lstlisting}
+public static void main(String[] args) {
+    boolean condicao = false;
+    while (condicao) {
+        System.out.println("executou ... ");
+    }
+}
+\end{lstlisting}
+\end{exercicio}
+
+\begin{resolucao}
+\textbf{Nada é impresso} (a execução termina sem produzir nenhuma linha no
+console).
+
+O \codigo{while} testa a condição \textbf{antes} de executar o bloco. Como
+\codigo{condicao} já começa com \codigo{false}, a condição é falsa no primeiro
+teste e o corpo do laço \textbf{não é executado nenhuma vez}.
+
+Se a estrutura fosse \codigo{do while}, o bloco executaria \textbf{uma vez} antes
+de testar e parar.
+\end{resolucao}
+
+% ------------------------------------------------------------
+\subsection{Exercício 2 --- \texttt{length} de um array}
+
+\begin{exercicio}
+O que será impresso no console pelo código abaixo?
+
+\begin{lstlisting}
+String[] nomes = {"Camila", "Venilton", "Leonardo", "Renan", "Rafael"};
+System.out.print(nomes.length);
+\end{lstlisting}
+\end{exercicio}
+
+\begin{resolucao}
+\textbf{5.}
+
+\codigo{nomes.length} retorna a \textbf{quantidade de elementos} do array. O
+array foi criado com 5 nomes, logo \codigo{length} vale 5.
+
+\begin{itemize}
+  \item Em \emph{array}, \codigo{length} é um \textbf{atributo} (sem parênteses):
+        \codigo{nomes.length} --- e não \codigo{nomes.length()}, que é o caso de
+        \codigo{String}.
+  \item O índice começa em \codigo{0}: o último elemento é \codigo{nomes[4]}.
+        Acessar \codigo{nomes[5]} lançaria \codigo{ArrayIndexOutOfBoundsException}.
+  \item \codigo{System.out.print} não pula linha (diferente de \codigo{println}).
+\end{itemize}
+\end{resolucao}
+
+% ------------------------------------------------------------
+\subsection{Exercício 3 --- Classificação das estruturas de repetição}
+
+\begin{exercicio}
+As estruturas de repetição podem ser classificadas em:
+
+\begin{itemize}
+  \item[(a)] Repetição com teste no início (\codigo{while}), Repetição com teste
+        no final (\codigo{do while}), Repetição contada (\codigo{for}).
+  \item[(b)] Repetição com teste no início (\codigo{for}), Repetição com teste
+        no final (\codigo{do while}), Repetição contada (\codigo{while}).
+  \item[(c)] Repetição com teste no início (\codigo{do while}), Repetição com
+        teste no final (\codigo{while}), Repetição contada (\codigo{for}).
+  \item[(d)] Repetição com teste no início (\codigo{for}), Repetição com teste
+        no final (\codigo{do while}), Repetição contada (\codigo{while}).
+  \item[(e)] Repetição com teste no início (\codigo{do while}), Repetição com
+        teste no final (\codigo{for}), Repetição contada (\codigo{while}).
+\end{itemize}
+\end{exercicio}
+
+\begin{resolucao}
+Alternativa \textbf{(a)}.
+
+\begin{center}
+\begin{tabular}{l l l}
+  \hline
+  Estrutura & Classificação & Motivo \\
+  \hline
+  \codigo{while}    & Teste no início   & verifica a condição \emph{antes} de executar; pode não rodar nenhuma vez \\
+  \codigo{do while} & Teste no final    & executa ao menos uma vez e só \emph{depois} testa \\
+  \codigo{for}      & Repetição contada & usa variável contadora (inicialização + condição + incremento) \\
+  \hline
+\end{tabular}
+\end{center}
+
+Observação: as alternativas (b) e (d) são idênticas entre si (ambas incorretas).
+\end{resolucao}
+
+% ------------------------------------------------------------
+\subsection{Exercício 4 --- \texttt{for} como acumulador}
+
+\begin{exercicio}
+O que será impresso no console pelo código abaixo?
+
+\begin{lstlisting}
+public static void main(String[] args) {
+    int numero = 1;
+    for (int x = 1; x < 2; x++) {
+        numero = numero + x;
+    }
+    System.out.println("O valor de número é: " + numero);
+}
+\end{lstlisting}
+\end{exercicio}
+
+\begin{resolucao}
+\codigo{O valor de número é: 2}.
+
+O corpo do laço executa \textbf{uma única vez} (com \codigo{x = 1}), porque na
+verificação seguinte \codigo{2 < 2} já é falso.
+
+\begin{center}
+\begin{tabular}{l c c}
+  \hline
+  Passo & \codigo{x} & \codigo{numero} \\
+  \hline
+  início & --- & 1 \\
+  \codigo{x = 1}; teste \codigo{1 < 2} $\rightarrow$ verdadeiro & 1 & 1 \\
+  \codigo{numero = 1 + 1} & 1 & 2 \\
+  \codigo{x++} $\rightarrow$ 2; teste \codigo{2 < 2} $\rightarrow$ falso & 2 & 2 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\codigo{numero} é um \textbf{acumulador}: começa em 1 e recebe o valor de
+\codigo{x} a cada iteração.
+\end{resolucao}
+
+% ------------------------------------------------------------
+\subsection{Exercício 5 --- Loop infinito no \texttt{do while}}
+
+\begin{exercicio}
+O que será impresso no console pelo código abaixo?
+
+\begin{lstlisting}
+int num = 5, count = 1;
+do {
+    num += count;
+    System.out.println(num);
+} while (count <= 3);
+\end{lstlisting}
+\end{exercicio}
+
+\begin{resolucao}
+\textbf{Loop infinito}: o programa imprime \codigo{6, 7, 8, 9, 10, ...} sem parar.
+
+A variável \codigo{count} \textbf{nunca é alterada} dentro do laço (permanece
+\codigo{1}), então a condição \codigo{count <= 3} é sempre verdadeira.
+
+\begin{center}
+\begin{tabular}{c c c c}
+  \hline
+  Iteração & \codigo{count} & \codigo{num += count} & imprime \\
+  \hline
+  1ª & 1 & \codigo{5 + 1} & 6 \\
+  2ª & 1 & \codigo{6 + 1} & 7 \\
+  3ª & 1 & \codigo{7 + 1} & 8 \\
+  \ldots & 1 & \ldots & \ldots \\
+  \hline
+\end{tabular}
+\end{center}
+
+\textbf{Correção} --- incrementar \codigo{count} dentro do laço para que a
+condição eventualmente se torne falsa:
+
+\begin{lstlisting}
+int num = 5, count = 1;
+do {
+    num += count;
+    System.out.println(num);   // imprime 6, 7, 8, 9
+    count++;
+} while (count <= 3);
+\end{lstlisting}
+\end{resolucao}
+
+\begin{observacao}
+Em todo \codigo{while}/\codigo{do while}, a variável usada na condição precisa ser
+alterada dentro do laço --- caso contrário, cria-se um loop infinito.
+\end{observacao}
 
 \end{document}

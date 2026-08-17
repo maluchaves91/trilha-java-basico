@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.27)  17 AUG 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.27)  17 AUG 2026 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,7 +862,7 @@ Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 87
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 97
 .
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
@@ -878,24 +878,24 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 )
 \openout1 = `aula_repeticoes_java.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -957,50 +957,50 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 87.
+Package hyperref Info: Link coloring ON on input line 97.
  (aula_repeticoes_java.out) (aula_repeticoes_java.out)
 \@outlinefile=\write4
 \openout4 = `aula_repeticoes_java.out'.
 
 \c@lstlisting=\count357
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-0.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+00.
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-0.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+00.
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-90.
+100.
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-90.
+100.
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 90.
+(Font)              <14.4> on input line 100.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 90.
+(Font)              <10> on input line 100.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 90.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
-
+(Font)              <7> on input line 100.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 100
+.
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 100
+.
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1029,42 +1029,47 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {C:/Users/maluc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/malu
 c/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-18.
+28.
 
 (C:\Users\maluc\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 118.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 127.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 137.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 142.
+nput line 152.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 143.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 153.
  [2{C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}
 ] [3{C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.
 enc}{C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.
 enc}]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 210.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 220.
 
-[4] [5] [6] [7] [8] [9] (aula_repeticoes_java.aux)
+[4] [5] [6] [7] [8] [9] [10]
+Overfull \hbox (100.85918pt too wide) in paragraph at lines 617--626
+ [] 
+ []
+
+[11] [12] [13] (aula_repeticoes_java.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `aula_repeticoes_java.out' has not changed.
-(rerunfilecheck)             Checksum: FD1FABAA982EA4C5A415C2E6379EF50E;2995.
+(rerunfilecheck)             Checksum: 60CE755DC09C52A5076F9F523C87EBC2;4618.
  ) 
 Here is how much of TeX's memory you used:
- 29250 strings out of 467871
- 586488 string characters out of 5418376
- 1348990 words of memory out of 5000000
- 57508 multiletter control sequences out of 15000+600000
+ 29332 strings out of 467871
+ 587667 string characters out of 5418376
+ 1349325 words of memory out of 5000000
+ 57549 multiletter control sequences out of 15000+600000
  699134 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,12n,118p,462b,2058s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,16n,118p,462b,2058s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.p
 fb><C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.p
@@ -1077,9 +1082,9 @@ b><C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb>
 <C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
 <C:/Users/maluc/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb
 >
-Output written on aula_repeticoes_java.pdf (9 pages, 302738 bytes).
+Output written on aula_repeticoes_java.pdf (13 pages, 327194 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
